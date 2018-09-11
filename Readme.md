@@ -21,7 +21,7 @@ Follow the [tutorial](https://learn.adafruit.com/adafruit-feather-m0-radio-with-
 5.  Under Linux/Ubuntu, you might have to add your user to the dialout group: `sudo usermod -a -G dialout $USER`, and make sure the changes are applied. 
 6.  Select the port for your feather. 
 
-Clone this Arduino Sketch: `git clone https://bitbucket.org/werktag/m0-lorawan-ttn/src/master/`
+Clone this Arduino Sketch: `git clone https://github.com/werktag/m0-lorawan-ttn`
 
 Clone the lmic library adjusted for the feather m0 lora into your Arduino library folder: `git clone https://github.com/huebe/arduino-lmic` (The Arduino library folder is usually be found in `Documents\Arduino\libraries` in Windows, and `~/Arduino/libraries` in Linux)
 
