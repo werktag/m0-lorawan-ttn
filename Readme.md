@@ -36,7 +36,7 @@ If you don't have login for The Things Network (TTN), create one.
 To adjust the TTN Credentials in the Sketch:
 
    * In the [TTN Console](https://console.thethingsnetwork.org/), create an application.
-   * Add a device to the application. Give it a Device ID of you choice, click the "Generate" button for Device EUI, leave App Key empty and press "Register"
+   * Add a device to the application. Give it a Device ID of you choice, click the "Generate" button for Device EUI, leave App Key empty and press "Register".
    * In the device Overview, copy the Application EUI to the APPEUI variable in the Sketch in the C-Style lsb format.
    * In the device Overview, copy the Device EUI to the DEVEUI variable in the Sketch in the C-Style lsb format.
    * In the device Overview, copy the App Key to the APPKEY variable in the Sketch in the C-Style msb format.
@@ -76,4 +76,4 @@ The decoded battery value should now appear in the Application Data Tab:
 That's it, enjoy LoRaWan with your feather!
 
 
-Enjoyed this articele? Head over to [Werktag Blog](https://blog.werktag.io) for more articles.
+Enjoyed this article? Head over to [Werktag Blog](https://blog.werktag.io) for more articles.
